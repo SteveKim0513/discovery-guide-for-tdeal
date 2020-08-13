@@ -8,10 +8,13 @@ Discovery접속 URL : http://ec2-3-35-13-233.ap-northeast-2.compute.amazonaws.co
 
 
 ## 폴더 구조
-/data/airflow : airflow가 설치된 폴더로 schduler를 만드는 파일이 있다.
-> /data/airflow/app/
+/data/airflow/ : airflow가 설치된 폴더로 schduler를 만드는 파일이 있음
+> /data/airflow/dags/ : scheduler 파일  
+> /data/airflow/venv/bin/activate : airflow vm env.로 진입할 때 사용하는 파일
 
-/data/
+/data/druid-ingestion/ : S3에서 데이터를 읽어서 druid에 적재하는 스크립트 파일이 있음  
+> /data/druid-ingestion/druid-batch/ : druid적재를 위한 python vm env.
+> /data/druid-ingestion/t-deal-discovery/ : druid에 데이터를 적재하는 코드
 
 
 ## ssh connection
@@ -25,6 +28,7 @@ $ sudo su metatron
 $ cd /data/druid-ingestion/
 $ python3 -m venv druid-batch
 ```
+
 
 ## druid ingestion test
 1. enter python vm

@@ -13,7 +13,7 @@ Discovery접속 URL : http://ec2-3-35-13-233.ap-northeast-2.compute.amazonaws.co
 > /data/airflow/venv/bin/activate : airflow vm env.로 진입할 때 사용하는 파일
 
 /data/druid-ingestion/ : S3에서 데이터를 읽어서 druid에 적재하는 스크립트 파일이 있음  
-> /data/druid-ingestion/druid-batch/ : druid적재를 위한 python vm env.
+> /data/druid-ingestion/druid-batch/ : druid적재를 위한 python vm env.  
 > /data/druid-ingestion/t-deal-discovery/ : druid에 데이터를 적재하는 코드
 
 

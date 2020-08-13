@@ -53,7 +53,7 @@ $ python3 main.py --target {test}
 5. Overlord Console Check
 
 
-## make Data Schedule
+## Make Schedule
 **| create folder in S3 bucket |**
 
 1. create folder in "metatron-druid-tdeal" bucket

@@ -55,11 +55,13 @@ $ python3 main.py --target {test}
 
 ## make Data Schedule
 **create folder in S3 bucket**
+
 1. create folder in "metatron-druid-tdeal" bucket
 
 2. make glue job
 
 **druid ingestion code**
+
 3. make ${dataName}.py in '/data/druid-ingestion/t-deal-discovery/app/'
 > sample.py 복사하여 수정  
 > 수정이 필요한 사항은 파일내에 주석으로 표기함
@@ -68,6 +70,7 @@ $ python3 main.py --target {test}
 > 수정이 필요한 사항은 파일내에 주석으로 표기함
 
 **airflow conf.**
+
 5. enter airflow vm env.
 ```
 $ source /data/airflow/venv/bin/activate

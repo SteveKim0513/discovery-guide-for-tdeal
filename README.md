@@ -40,7 +40,7 @@ $ . druid-batch/bin/activate
 
 2. clone druid ingestion code from github(clone command at '/data/druid-ingestion/')
 ```
-$ git clone https://github.com/SteveKim0513/t-deal-discovery.git
+$ git clone https://github.com/SteveKim0513/t-deal-discovery-rev..git
 $ cd t-deal-discovery
 $ pip install -r pip-requirements
 ```

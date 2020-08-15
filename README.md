@@ -79,12 +79,12 @@ $ source /data/airflow/venv/bin/activate
 ```
 
 6. airflow 생성 파일 만들기: ${scheduleName}.py in '/data/airflow/dags'
-> sample-airflow.py 복사하여 수정
+> sample-airflow.py 복사하여 수정  
 > 수정이 필요한 사항은 파일내에 주석으로 표기함
 
 7. airflow scheduler 등록
-'''
+```
 $ airflow initdb
-'''
+```
 
 8. airflow console에서 확인
